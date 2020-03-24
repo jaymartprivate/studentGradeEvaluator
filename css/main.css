@@ -1,0 +1,105 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.containerLanding{
+    margin: 0 0 0 auto;
+    text-align: center;
+    padding-top: 50vh;
+    height: 100vh;
+    width: 45%;
+    border-radius: 2px;
+    background: linear-gradient(315deg, #e67d37, #ff9541);
+    box-shadow:  -5px -5px 10px #663818, 
+                 5px 5px 10px #ffde62;
+
+}
+.containerLanding:hover{
+    border-radius: 2px;
+background: linear-gradient(315deg, #ff9541, #e67d37);
+box-shadow:  -5px -5px 10px #663818, 
+             5px 5px 10px #ffde62;
+}
+#bodyLanding{
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.103), rgba(39, 38, 38, 0.411)), url(../img/unnamed.1.png);
+    overflow: hidden;
+    
+}
+.container{
+    margin-top: 100px;
+    width: 500px;
+    
+    
+}
+#bgHome{
+    overflow: hidden;
+}
+#title{
+    font-size: 45px;
+    margin-bottom: 10px;
+    margin-top: -35px;
+}
+#btnLanding{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-weight: 200px;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 84px;
+    background: #ff8b3d;
+    box-shadow:  5px 5px 10px #663818, 
+                 -5px -5px 10px #ffde62;
+                
+}
+#btnLanding:hover{
+    border-radius: 84px;
+    background: #ff8b3d;
+    box-shadow: inset 5px 5px 10px #c26a2e, 
+                inset -5px -5px 10px #ffac4c;
+}
+
+#btnLanding:hover span{
+    transform: scale(0.98);
+}
+#content-container{
+    border-radius: 6px;
+    background: #1cc4fb;
+    box-shadow:  -5px -5px 3px #0b4e64, 
+                 5px 5px 3px #2dffff;
+}
+#content-container:hover{
+    border-radius: 2px;
+background: #ff9e5e;
+box-shadow:  5px 5px 10px #663f26, 
+             -5px -5px 10px #fffd96;
+}
+#bgHome{
+    background: rgb(134,223,253);
+    background: linear-gradient(90deg, rgba(134,223,253,1) 0%, rgba(69,189,252,1) 54%, rgba(28,156,251,1) 100%); 
+}
+#btnSubmit{
+    margin-left: 175px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 6px;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+#btnSubmit:hover{
+    border-radius: 6px;
+    background: #00ff80;
+    box-shadow: inset 5px 5px 5px #00994d, 
+                inset -5px -5px 5px #00ffc9;
+}
+
